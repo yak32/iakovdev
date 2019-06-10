@@ -1,0 +1,176 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Iakov Sumygin
+    tagline: SDE
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    website: glow3d.com/blog/ #do not add http://
+    linkedin: yak32
+    github: yak32
+    gitlab:
+    bitbucket:
+    twitter: '@yak32'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Russian
+        level: Native
+
+    interests:
+      - item: Hard Sci-Fi
+        link:
+
+      - item: Indie Game Development
+        link: http://glow3d.com/
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      In my 18+ years of professional development experience, I shipped full featured user-facing
+      products for millions of users on many platforms, from decade old CPUs to powerful modern devices.
+      Winner of several world-wide programming and game development competitions.
+      Custom C++ 3D engine, written at free time, used to launch a game on Google Play market with tens of thousands of downloads.
+
+
+education:
+    - degree: BSc in Applied Mathematics
+      university: Turkmen State University
+      time: 1996 - 2000
+      details: |
+
+experiences:
+    - role: SDE
+      time: 2016 - Present
+      company: Amazon, London
+      details: |
+        Technical project leader on porting Amazon Video to Sony PlayStation 3 and PlayStation 4.
+        Planning, coordinating the team, development of the major parts of the app.
+        Shipped Amazon Video on Sony PlayStation 4, PlayStation 3 and AppleTV for millions of customers worldwide.
+        Shipped first Amazon Prime Video App on Apple TV - the most downloaded Apple TV app in its first week.
+
+          - Developed rendering backend for Amazon Video on PS4 and PS3
+          - Adapted video playback layer for PS3
+          - Developed platform layer for PS4 and PS3
+          - Developed build system for Amazon Video on AppleTV project
+          - Build CI infrastructure for AppleTV project
+          - Release owner for Amazon Video on AppleTV
+
+    - role: Senior Software Engineer
+      time: 2015 - 2016
+      company: Wargaming/BigWorld, Sydney
+      details: |
+        Worked on updating graphics of the massively multiplayer online game World of Tanks
+        (over 160 million registered players) to support modern graphics APIs
+
+          - Engine serialization was fixed to produce the same output on all CPUs to significantly reduce a size of game patches.
+          - Worked on scripts to move data from SVN to Perforce and back to allow sharing of a source code between offices.
+          - More than 70 graphics issues are resolved.
+
+    - role: Senior Software Developer
+      time: 2005 - 2014
+      company: Samsung Electronics, Suwon, South Korea
+      details: |
+        Project Leader/Coordinator of 3 projects in the Browser team:
+        Maintenance of Smart TV Browser on all Samsung TV platforms,
+        New Tizen-based browser.
+        Advanced Browser project – voice/gesture-based browser for Smart TVs..
+
+          - Improved usability of the Smart TV browser – auto-completion of URL, smartphone-like scrolling of pages using smart remote, smooth cursor movement on low-level devices.  Initiated refactoring of the outdated legacy code.
+          - Fixed security vulnerabilities, including SQL injections and buffer overflows, completely refactored DB access.
+          - Ported Adobe Access (DRM solution for Flash), allowed major US content providers to securely stream video content to Samsung TVs.
+          - Shipped Comcast xFinity App on 2013 Samsung TVs.
+          - Significantly improved performance of UI authoring tool by optimizing memory allocations.
+          - Implemented Redo/Undo using Command pattern instead of saving whole doc.
+
+    - role: Software Developer
+      time: 1999 - 2004
+      company: Soft Ltd., Ashgabat, Turkmenistan
+      details: |
+        Project leader (at the end of the project) of “Document Flow” application for Ministry of Foreign Affairs of Turkmenistan –
+        developed UI and backend. The project was shipped to the Ministry.
+
+          - Developed Universal Grid Control for data editing, written with MFC.
+          - Business logic, written in Transact-SQL
+          - DCOM is used as additional security layer.
+          - Helped to deploy the project to the Ministry.
+
+projects:
+    title: Projects
+    intro: >
+      My side projects and open source libraries.
+
+    assignments:
+      - title: Glow3D
+        link: "http://glow3d.com/"
+        tagline: "Lightweight cross-platform C++ game engine."
+
+      - title: IMGUI
+        link: "https://github.com/yak32/glw_imgui"
+        tagline: "Immediate Mode UI C++ implementation. IMGUI is a code-driven, simple and bloat-free GUI system, widely used in modern game engines and games.."
+
+      - title: Iron Cube
+        link: "http://www.ironcube.net/"
+        tagline: "Mobile game for Google Play and Apple App Store - Tank battles in completely destructable voxel world. More than 40 000 downloads on Google Play."
+
+      - title: glw_json
+        link: "https://github.com/yak32/glw_json"
+        tagline: "Single-file, compact, fast and allocation-free json serialization for C++."
+
+      - title: I know your deeds
+        link: "https://software.intel.com/sites/campaigns/levelup2017/hall-of-glory/"
+        tagline: "Survive over the course of months and years, trapped in a city dominated by nightmarish zombies. On top of contending with the ever-present zombie threat, you'll face long-term concerns like obtaining sources of food and water, building shelter from attack, and the overall survival of the human race."
+
+      - title: Mercury
+        link: "https://www.youtube.com/watch?v=EzSByIMRiJk"
+        tagline: "A prototype for voxel-based 3D modelling using bare hands - winner of Intel Perceptual Challenge - 2013"
+
+
+publications:
+    title: Awards
+    intro: |
+      Some competitions I participated.
+
+    papers:
+      - title: Intel Level Up 2009
+        authors: I know your Deeds.
+        conference: Game Prototype. 1st place in Best Game Optimized for Intel® Graphics / 2nd Place in Best Threaded Game
+
+      - title: "Intel Perceptual Challenge 2013"
+        authors: Mercury
+        conference: "1st Place. Digital sculpting software. With the help of Intel Perceptual SDK and Camera it will allow to user to sculpt 3D meshes by bare hands, as in real life. Users will use their hands to naturally model 3d objects and allow to save result into popular 3d formats - currently obj and 3ds are planned."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: C++
+        level: 98%
+
+      - name: Software optimization
+        level: 93%
+
+      - name: 3D Graphics/OpenGL/DirectX
+        level: 92%
+
+      - name: Game console development
+        level: 80%
+
+      - name: Embedded Development
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
