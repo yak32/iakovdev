@@ -13,13 +13,13 @@ sass:
   style: compressed
 
 # Google Analytics
-google_analytics: UA-141813689-1
+analytics: UA-141813689-1
 
 # Build settings
 compress-site: yes
 
 encoding: "utf-8"
-compress_html: 
+compress_html:
   clippings: all
   ignore:
     envs: development
